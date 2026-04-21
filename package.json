@@ -1,0 +1,10 @@
+{
+  "name": "techvision-o2c",
+  "version": "1.0.0",
+  "dependencies": {
+    "@sap/cds": "^7"
+  },
+  "scripts": {
+    "start": "cds run"
+  }
+}

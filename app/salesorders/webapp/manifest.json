@@ -1,0 +1,7 @@
+{
+  "sap.app": {
+    "id": "o2c.app",
+    "type": "application",
+    "title": "O2C App"
+  }
+}

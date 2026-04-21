@@ -1,0 +1,15 @@
+ID: techvision-o2c
+version: 1.0.0
+
+modules:
+  - name: o2c-srv
+    type: nodejs
+    path: srv
+
+  - name: o2c-db
+    type: hdb
+    path: db
+
+  - name: o2c-app
+    type: html5
+    path: app/salesorders
