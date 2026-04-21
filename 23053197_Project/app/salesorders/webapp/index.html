@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>O2C App</title>
+</head>
+<body>
+  <h1>Sales Orders</h1>
+  <div id="data"></div>
+
+  <script>
+    fetch('/api/SalesOrders')
+      .then(res => res.json())
+      .then(data => {
+        document.getElementById("data").innerHTML =
+          JSON.stringify(data.value, null, 2);
+      });
+  </script>
+</body>
+</html>
